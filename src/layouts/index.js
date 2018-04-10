@@ -5,8 +5,7 @@ import Footer from '../components/Footer';
 import 'font-awesome/css/font-awesome.css';
 import './index.scss';
 import './index.css';
-export default ({children, data}) => {
-    console.log(data)
+export default ({children, data}) => {    
     return(
         <div>
             <Header
