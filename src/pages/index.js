@@ -1,3 +1,16 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+export default ({data}) => {    
+    return(
+        <div>
+            halo
+        </div>
+    )
+}
+
+
+export const query = graphql`
+    query IndexPagesQuery{
+        
+    }
+`

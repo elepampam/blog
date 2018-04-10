@@ -15,6 +15,8 @@
     "gatsby-plugin-sass": "^1.0.25",
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-transformer-remark": "^1.7.39",
     "styled-components": "^3.2.5",
     "typography-theme-lawton": "^0.15.10"
   }
