@@ -17,7 +17,7 @@ export default ({data}) => {
 	        		{posts.map((post,index) => {
 		        		return(
 		        			<PostCard key={index}>
-		        				<Link to={post.node.fields.slug}>
+		        				<Link to={post.node.frontmatter.path}>
 		        					<PostCard.Title>
 			        					{post.node.frontmatter.title}
 			        				</PostCard.Title>
@@ -42,12 +42,10 @@ export const query = graphql`
 	allMarkdownRemark{
 	    edges{
 	      node{
-	      	fields{
-	          slug
-	        }
 	        frontmatter{
 	          title
-	          date
+						date
+						path
 	        }
 	        excerpt        
 	      }      

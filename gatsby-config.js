@@ -5,7 +5,7 @@ module.exports = {
             name: "I Made Budi Surya Darma",
             social: {
                 twitter: 'Budisuryadarma',
-                facebook: 'surya.blinkers',
+                facebook: 'imdbsd',
                 github: 'elepampam'
             }
         }
@@ -20,8 +20,8 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-              name: `src`,
-              path: `${__dirname}/src/`,
+              name: `contents`,
+              path: `${__dirname}/src/contents`,
             },
           },
         'gatsby-plugin-styled-components',
