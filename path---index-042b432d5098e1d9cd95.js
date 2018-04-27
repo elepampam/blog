@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{383:function(t,a){t.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"tutorial",date:"2017-08-21",path:"/tutorial/tutorial-gatsby"},excerpt:"HELLO WORLD gatsby"}},{node:{frontmatter:{title:"Pandas and Bananas",date:"2017-08-21",path:"/post/pandas-and-bananas"},excerpt:""}}],totalCount:2}},pathContext:{}}}});
+//# sourceMappingURL=path---index-042b432d5098e1d9cd95.js.map
