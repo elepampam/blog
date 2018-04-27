@@ -1,4 +1,4 @@
-{
+{ 
   "name": "gatsby-starter-hello-world",
   "description": "Gatsby hello world starter",
   "license": "MIT",
@@ -6,7 +6,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "bulma": "^0.6.2",

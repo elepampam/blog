@@ -1,5 +1,4 @@
-module.exports = {
-    pathPrefix: "/blog",
+module.exports = {    
     siteMetadata: {
         title: 'imdbsd.lab',
         owner: {
